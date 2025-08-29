@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+@import "tailwindcss";
+
+html.body,
+#root,
+.app,
+.content {
+  font-family: "Libertinus Serif Display", system-ui;
+  font-weight: 500;
+  height: 100%;
+  width: 100%;
+}
+.app {
+  display: flex;
+  position: relative;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
